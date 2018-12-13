@@ -1,0 +1,54 @@
+if(Age == "18-24"){
+	Age_int <- 0
+}
+if(Age == "25-34"){
+	Age_int <- 1
+}
+if(Age == "35-44"){
+	Age_int <- 2
+}
+if(Age == "45+"){
+	Age_int <- 3
+}
+
+if(Gender == "Male"){
+	Gender_int <- 0
+}
+if(Gender == "Female"){
+	Gender_int <- 1
+}
+
+if(Education == "Left school"){
+	Edu_int <- 0
+}
+if(Education == "Student"){
+	Edu_int <- 1
+}
+if(Education == "Pro certificate/diploma"){
+	Edu_int <- 2
+}
+if(Education == "University degree"){
+	Edu_int <- 3
+}
+if(Education == "Masters degree"){
+	Edu_int <- 4
+}
+if(Education == "Doctorate degree"){
+	Edu_int <- 5
+}
+
+if(Country == "Australia"){
+	Ctr_int <- 0
+}
+if(Country == "Canada"){
+	Ctr_int <- 1
+}
+if(Country == "UK"){
+	Ctr_int <- 2
+}
+if(Country == "USA"){
+	Ctr_int <- 3
+}
+if(Country == "Other"){
+	Ctr_int <- 4
+}
